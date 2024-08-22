@@ -1,106 +1,105 @@
-ta\ </div>
-<p>Haz parte de nuestro concurso y opta por fantásticos premios que te ayudarán a llevar tu trabajo al siguiente nivel.</p>
-<button style=\background-color: red; color: white; border: none; padding: 10px 20px; font-size: 1em; cursor: pointer;\¡Participa Ahora!</button>
-</div>
-
-<footer>
-<p>© 2023 Telecable - Todos los derechos reservados</p>
-</footer>
-</body>
-</html>
-```
-
-Este código HTML define un sitio web sencillo que muestra el concurso empresarial de Telecable. Incluye un encabezado, un contenedor para el contenido principal que resAquí tienesalta los premios, y un pie de página. Para hacer funcionar el sitio, necesitar un diseñoías imágenes para los premios (por ejemplo, `laptop.png`, `celular.png`, `tableta.png`). Recuerda que puedes personalizar aún más el diseño, el contenido y el estilo según tus preferencias. básico en HTML para un sitio web de concurso empresarial para Telecable, con el eslogan y los colores solicitados. Este diseño incluye secciones para el encabezado, la descripción del concurso, los premios y un formulario de inscripción.
-
-```html
 <!DOCTYPE html>
-<html lang=\es\<head>
-<meta charset=\UTF-8\ <meta name=\viewport\ content=\width=device-width, initial-scale=1.0\ <title>Concurso Empresarial Telecable</title>
-<style>
-body {
-font-family: Arial, sans-serif;
-background-color: #ffffff;
-color: #000000;
-margin: 0;
-padding: 0;
-}
-header {
-background-color: #ff0000; /* Rojo */
-color: #ffffff; /* Blanco */
-text-align: center;
-padding: 20px 0;
-}
-h1 {
-margin: 0;
-}
-section {
-padding: 20px;
-}
-.premios {
-display: flex;
-justify-content: space-around;
-margin-top: 20px;
-}
-.premio {
-border: 2px solid #ff0000;
-padding: 10px;
-width: 30%;
-text-align: center;
-}
-form {
-display: flex;
-flex-direction: column;
-max-width: 400px;
-margin: 20px auto;
-}
-input[type=\text\ input[type=\email\ {
-margin-bottom: 10px;
-padding: 10px;
-border: 1px solid #ccc;
-border-radius: 5px;
-}
-input[type=\submit\ {
-background-color: #ff0000; /* Rojo */
-color: white;
-border: none;
-padding: 10px;
-cursor: pointer;
-font-size: 16px;
-}
-input[type=\submit\hover {
-background-color: #cc0000;
-}
-</style>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telecable - Concurso</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            color: #333;
+        }
+        header {
+            background-color: #c8102e; /* Rojo oscuro */
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        .section-title {
+            font-size: 2em;
+            color: #c8102e;
+            margin-bottom: 20px;
+        }
+        .image-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border: 2px solid #c8102e;
+            border-radius: 10px;
+        }
+        .content {
+            margin: 20px;
+        }
+    </style>
 </head>
 <body>
-<header>
-<h1>¡Concurso Empresarial Telecable!</h1>
-<p>¡Telecable con T de Tecnología!</p>
-</header>
-<section>
-<h2>Descripción del Concurso</h2>
-<p>Participa en nuestro concurso y opta por increíbles premios. ¡Es tu oportunidad de ganar tecnología de punta!</p>
-
-<h2>Premios</h2>
-<div class=\premios\ <div class=\premio\ <h3>Laptop</h3>
-<p>Potente y ligera para tus tareas diarias.</p>
-</div>
-<div class=\premio\ <h3>Celular</h3>
-<p>La última tecnología para estar conectado.</p>
-</div>
-<div class=\premio\ <h3>Tableta</h3>
-<p>Ideal para entretenimiento y productividad.</p>
-</div>
-</div>
-
-<h2>Inscríbete Ahora</h2>
-<form action=\ method=\post\ <input type=\text\ name=
-ombre\ placeholder=\Tu Nombre\ required>
-<input type=\email\ name=\email\ placeholder=\Tu Correo Electrónico\ required>
-<input type=\submit\ value=\Inscribirme\ </form>
-</section>
+    <header>
+        <h1>Telecable</h1>
+    </header>
+    
+    <section>
+        <div class="section-title">Concurso de Laptops</div>
+        <div class="image-container">
+            <img src="https://via.placeholder.com/300x200?text=Laptop+1" alt="Laptop 1">
+            <img src="https://via.placeholder.com/300x200?text=Laptop+2" alt="Laptop 2">
+            <img src="https://via.placeholder.com/300x200?text=Laptop+3" alt="Laptop 3">
+        </div>
+        <div class="content">
+            <p>Participa en nuestro concurso para ganar una de las mejores laptops del mercado. ¡No te lo pierdas!</p>
+        </div>
+    </section>
+    
+    <section>
+        <div class="section-title">Concurso de Celulares</div>
+        <div class="image-container">
+            <img src="https://via.placeholder.com/300x200?text=Celular+1" alt="Celular 1">
+            <img src="https://via.placeholder.com/300x200?text=Celular+2" alt="Celular 2">
+            <img src="https://via.placeholder.com/300x200?text=Celular+3" alt="Celular 3">
+        </div>
+        <div class="content">
+            <p>¡Participa y gana los celulares más innovadores! Consulta las bases del concurso y ¡buena suerte!</p>
+        </div>
+    </section>
+    
+    <section>
+        <div class="section-title">Concurso de Tablets</div>
+        <div class="image-container">
+            <img src="https://via.placeholder.com/300x200?text=Tablet+1" alt="Tablet 1">
+            <img src="https://via.placeholder.com/300x200?text=Tablet+2" alt="Tablet 2">
+            <img src="https://via.placeholder.com/300x200?text=Tablet+3" alt="Tablet 3">
+        </div>
+        <div class="content">
+            <p>¡Gana una de nuestras tablets de última generación! Participa ahora y mejora tu experiencia digital.</p>
+        </div>
+    </section>
+    
+    <section>
+        <div class="section-title">Concurso Empresarial</div>
+        <div class="image-container">
+            <img src="https://via.placeholder.com/300x200?text=Empresarial+1" alt="Concurso Empresarial 1">
+            <img src="https://via.placeholder.com/300x200?text=Empresarial+2" alt="Concurso Empresarial 2">
+            <img src="https://via.placeholder.com/300x200?text=Empresarial+3" alt="Concurso Empresarial 3">
+        </div>
+        <div class="content">
+            <p>¡Participa en nuestro concurso empresarial para ganar premios y reconocimiento en el sector!</p>
+        </div>
+    </section>
+    
 </body>
 </html>
-```
-
-Este código crea una página simple con un estilo atractivo y conciso. Puedes añadir más funcionalidades o secciones según sea necesario para el concurso.
